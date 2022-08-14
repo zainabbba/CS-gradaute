@@ -1,0 +1,70 @@
+
+
+body {
+    font-size: medium;
+    font-family: 'GE_SS_REG', Helvetica, Arial, Lucida, sans-serif;
+
+
+
+    color: #666;
+}
+
+a {
+   
+    color: #666;
+}
+
+
+
+.container {
+
+    display: grid;
+    gap: 30px;
+    grid-template-areas:
+
+
+        "Logo . Nav"
+        "main main main"
+        ". . ."
+
+        "footer footer footer"
+    ;
+
+
+}
+
+
+
+
+.Nav {
+    grid-area: Nav;
+    display: flex;
+
+    
+    gap: 20px;
+    position: relative;
+
+    left: 200px;
+}
+
+.Logo {
+    grid-area: Logo;
+    margin-right:100px;
+}
+
+.main {
+    grid-area: main;
+   
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: lightblue;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+

@@ -1,0 +1,141 @@
+body {
+    font-size: medium;
+    font-family: 'Amiri', serif;
+
+    color: #666;
+}
+
+h2 {
+    font-family: 'Amiri', serif;
+}
+
+a {
+
+    color: #666;
+}
+
+a:hover {
+
+    color: lightblue;
+    cursor: pointer;
+}
+
+
+.container {
+
+    display: grid;
+    gap: 40px;
+    grid-template-areas:
+
+
+        "Logo . Nav"
+
+        "header header header"
+
+        "main main main"
+        ". . ."
+
+        "footer footer footer"
+    ;
+
+
+}
+
+
+.heading {
+    color: white;
+    text-align: center;
+    grid-area: header;
+    border: 5px solid lightblue;
+    /* width: 1570px; */
+
+    height: 150px;
+
+    background-color: lightblue;
+
+    /* opacity: 15%; */
+
+}
+
+.Nav {
+    grid-area: Nav;
+    display: flex;
+    gap: 20px;
+}
+
+.Logo {
+    grid-area: Logo;
+    margin-right: 100px;
+}
+
+.main {
+    grid-area: main;
+
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+    background-color: lightblue;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+
+}
+
+.crad1 {
+    /* background-color: aliceblue; */
+    padding: 20px;
+    margin: 5px;
+
+
+}
+
+.crad1 h1 {
+    background-color: #e6e8e6;
+    color: lightskyblue;
+}
+
+.crad1 h2 {
+    background-color: #e6e8e6;
+
+}
+
+.cracardTextd1 {
+    background-color: #e6e8e6;
+    width: 900px;
+    height: 600px;
+    margin: 50px 20%;
+    font-size: 20px;
+}
+
+.cracardTextd1 h4 {
+    text-align: center;
+}
+
+.cracardTextd1 ul {
+    margin: 10% 5%;
+
+}
+
+
+
+.cracardTextd1 img {
+    margin: 1% 30%;
+}
+
+.cracardTextd2 h4 {
+    text-align: center;
+}
+
+.cracardTextd2 {
+    background-color: #e6e8e6;
+    width: 900px;
+    height: 700px;
+    margin: 50px 20%;
+    font-size: 20px;
+}
+
+.cracardTextd2 ul {
+    margin: 2% 5%;
+}
